@@ -9,7 +9,7 @@ var BarChartModule = function(fields, canvas_width, canvas_height, sorting, sort
 
     // Create the tag:
     var svg_tag = "<svg width='" + canvas_width + "' height='" + canvas_height + "' ";
-    svg_tag += "style='border:1px dotted'></svg>";
+    svg_tag += "style=' '></svg>";
     // Append it to #elements
     var svg_element = $(svg_tag)[0];
     chart_div.append(svg_element);
